@@ -31,7 +31,7 @@ function bang(){
 	dictPackageInfo.import_json(PACKAGE_INFO_PATH)
 
 	var thisVersion = dictPackageInfo.get('version')
-	var latestVersion = dictPackageInfoLatest.get('body::version')
+	var latestVersion = '8.6'//dictPackageInfoLatest.get('body::version')
 	var needsUpdate = cmpVersions(latestVersion, thisVersion)
 	console.log("--------------------------version: "+thisVersion+"------------------------------------------")
 
