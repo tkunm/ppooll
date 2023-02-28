@@ -120,6 +120,7 @@ function getAuthors(){
 
 
 // print initial ppooll messages to the console
+//   if ppooll pref "check-for-updates", run update check
 function bang(){
 	// get version
 	var thisVersion = getCurrentVersion()
